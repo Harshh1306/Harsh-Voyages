@@ -141,3 +141,94 @@ footer {
     padding: 20px;
     margin-top: 20px;
 }
+/* =========================
+   RESPONSIVE DESIGN
+========================= */
+
+/* Tablets */
+@media (max-width: 992px) {
+    
+    .navbar {
+        padding: 15px 30px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero p {
+        font-size: 18px;
+    }
+
+    .cards-container {
+        flex-wrap: wrap;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hero {
+        height: 60vh;
+        padding: 20px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero p {
+        font-size: 16px;
+    }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
+
+
+/* Small Phones */
+@media (max-width: 480px) {
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .hero p {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 8px 18px;
+        font-size: 14px;
+    }
+
+    .destinations h2 {
+        font-size: 24px;
+    }
+}
